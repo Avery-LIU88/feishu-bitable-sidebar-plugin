@@ -1,0 +1,29 @@
+{
+  "name": "小红书助手",
+  "version": "1.0.0",
+  "description": "识别小红书链接并提取笔记内容信息",
+  "icon": "icon.png",
+  "main": "./index.html",
+  "permissions": [
+    {
+      "type": "base",
+      "actions": [
+        "ReadTableMeta",
+        "ReadFieldMeta",
+        "ReadRecords",
+        "UpdateRecords",
+        "CreateRecords"
+      ]
+    },
+    {
+      "type": "network",
+      "actions": [
+        "GET",
+        "POST"
+      ]
+    }
+  ],
+  "bitable": {
+    "minVersion": "1.0.0"
+  }
+}
